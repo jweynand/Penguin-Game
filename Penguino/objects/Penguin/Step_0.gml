@@ -3,20 +3,6 @@
 
 moveSpeed = 2;
 
-if keyboard_check(ord("A")){
-	x -= moveSpeed;
-}
+move();
 
-if keyboard_check(ord("W")){
-	y -= moveSpeed;
-}
-
-if keyboard_check(ord("D")){
-	x += moveSpeed;
-}
-
-if keyboard_check(ord("S")){
-	y += moveSpeed;
-}
-
-gravity = -0.1;
+gravity = 0.1;
