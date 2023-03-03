@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"Penguin","path":"objects/Penguin/Penguin.yy",},"order":0,},
     {"id":{"name":"Penguine","path":"tilesets/Penguine/Penguine.yy",},"order":0,},
+    {"id":{"name":"tile_meeting","path":"scripts/tile_meeting/tile_meeting.yy",},"order":0,},
     {"id":{"name":"Penguin1","path":"sprites/Penguin1/Penguin1.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
