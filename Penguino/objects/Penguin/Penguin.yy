@@ -1,11 +1,14 @@
 {
   "spriteId": {
-    "name": "pixilart_drawing",
-    "path": "sprites/pixilart_drawing/pixilart_drawing.yy",
+    "name": "Penguin1",
+    "path": "sprites/Penguin1/Penguin1.yy",
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "Penguin1",
+    "path": "sprites/Penguin1/Penguin1.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": true,
