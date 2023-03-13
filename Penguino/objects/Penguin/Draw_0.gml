@@ -3,3 +3,5 @@
 draw_self();
 
 draw_rectangle(bbox_left,bbox_bottom,bbox_right,bbox_top,c_red);
+
+draw_text(x,y+50,string(penguinTemperature));
