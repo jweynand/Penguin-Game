@@ -5,7 +5,10 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "PenguinSprite",
+    "path": "sprites/PenguinSprite/PenguinSprite.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": true,
