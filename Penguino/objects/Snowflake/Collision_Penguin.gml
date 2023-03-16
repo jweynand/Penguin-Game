@@ -1,2 +1,2 @@
-Penguin.penguinTemperature += 1;
+Penguin.penguinTemperature += 5;
 instance_deactivate_object(self);

@@ -27,7 +27,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Object4",
+  "name": "music",
   "tags": [],
   "resourceType": "GMObject",
 }

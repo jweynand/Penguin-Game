@@ -23,7 +23,7 @@ if tile_meeting(x,y-6,"Collision")
 //Don't Get Stuck In The Floor
 if tile_meeting(x,y-2,"Collision")
 {
-	gravity = 0 vspeed = 0 vspeed -= 2;
+	gravity = 0 vspeed -= 2 y -= 5;
 }
 
 }
