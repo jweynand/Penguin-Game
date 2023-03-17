@@ -1,11 +1,13 @@
 {
   "resources": [
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":15,},
+    {"id":{"name":"snow1","path":"sprites/snow1/snow1.yy",},"order":6,},
     {"id":{"name":"RightWalkies","path":"sprites/RightWalkies/RightWalkies.yy",},"order":3,},
     {"id":{"name":"LeftWalkies","path":"sprites/LeftWalkies/LeftWalkies.yy",},"order":4,},
     {"id":{"name":"temp","path":"sprites/temp/temp.yy",},"order":5,},
     {"id":{"name":"RunCollisions","path":"scripts/RunCollisions/RunCollisions.yy",},"order":1,},
     {"id":{"name":"PenguinSprite","path":"sprites/PenguinSprite/PenguinSprite.yy",},"order":1,},
+    {"id":{"name":"SnowBackground","path":"sprites/SnowBackground/SnowBackground.yy",},"order":7,},
     {"id":{"name":"Penguin2","path":"sprites/Penguin2/Penguin2.yy",},"order":2,},
     {"id":{"name":"timer","path":"scripts/timer/timer.yy",},"order":2,},
     {"id":{"name":"Snowflake","path":"objects/Snowflake/Snowflake.yy",},"order":1,},

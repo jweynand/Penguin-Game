@@ -3,9 +3,9 @@
 
 move(2);
 RunCollisions();
-increase_temperature(0.5);
+increase_temperature(0.1);
 
 //Jumping
-if keyboard_check(vk_space){if tile_meeting(x,y,"Collision"){vspeed = -5;}}
+if keyboard_check(vk_space) or keyboard_check(ord("W")){if tile_meeting(x,y,"Collision"){vspeed = -5;}}
 
 show_debug_message(string(x)+", "+string(y))

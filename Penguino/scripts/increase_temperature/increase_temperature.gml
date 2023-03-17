@@ -16,4 +16,7 @@ if heated
 	}
 	}
 	else{show_debug_message("You're not heated!")}
+	if penguinTemperature <= -43{
+		room_restart();
+	}
 }
