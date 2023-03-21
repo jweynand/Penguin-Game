@@ -12,12 +12,12 @@ if heated
 	
 	if heatTime <= 0{
 		penguinTemperature --;
-		heatTime = 60;
+		heatTime = seconds*60;
 	}
 	}
 	else{show_debug_message("You're not heated!")}
 	if penguinTemperature <= -43{
-		image_speed = 4;
+		image_speed = 1.5;
 		sprite_index = falling1;
 		if penguinTemperature <= -45.5
 		{
