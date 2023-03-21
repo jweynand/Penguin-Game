@@ -3,7 +3,7 @@
 function RunCollisions(){
 	
 //Gravity and Floor Collisions
-if tile_meeting(x,y,"Collision")
+if tile_meeting(x,y,"Collision") or place_meeting(x,y+2,crackingPlatform)
 {
 	gravity = 0 vspeed = 0;
 }
@@ -20,10 +20,15 @@ if tile_meeting(x,y-6,"Collision")
 	vspeed = 0 y += 4;
 }
 
-//Don't Get Stuck In The Floor
-if tile_meeting(x,y-2,"Collision")
+// Cracking Platform Addendum
+if place_meeting(x,y-2,crackingPlatform)
 {
-	gravity = 0 vspeed -= 2 y -= 5;
+	vspeed = 0 y += 4;
+}
+//Don't Get Stuck In The Floor
+if tile_meeting(x,y-2,"Collision") or place_meeting(x,y-2,crackingPlatform)
+{
+	gravity = 0 vspeed -= 1 y -= 4;
 }
 
 }

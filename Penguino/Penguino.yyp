@@ -22,6 +22,7 @@
     {"id":{"name":"Penguin1","path":"sprites/Penguin1/Penguin1.yy",},"order":0,},
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},"order":16,},
     {"id":{"name":"increase_temperature","path":"scripts/increase_temperature/increase_temperature.yy",},"order":3,},
+    {"id":{"name":"crackingPlatform","path":"objects/crackingPlatform/crackingPlatform.yy",},"order":5,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
