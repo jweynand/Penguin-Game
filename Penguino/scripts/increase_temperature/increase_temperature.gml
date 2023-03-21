@@ -1,8 +1,8 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function increase_temperature(seconds){	
-if place_meeting(x,y,backwall){heated = false}
-
+if place_meeting(x,y,backwall)
+{heated = false}
 else{heated = true}
 	
 if heated
@@ -17,6 +17,11 @@ if heated
 	}
 	else{show_debug_message("You're not heated!")}
 	if penguinTemperature <= -43{
-		room_restart();
+		image_speed = 4;
+		sprite_index = falling1;
+		if penguinTemperature <= -45.5
+		{
+			room_restart();
+		}
 	}
 }

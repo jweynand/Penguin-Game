@@ -14,7 +14,7 @@ if keyboard_check(ord("D")) and not tile_meeting(bbox_right-34,y-2,"Collision") 
 	sprite_index = RightWalkies;
 }
 
-if not keyboard_check(ord("D")) and not keyboard_check(ord("A")){
+if not keyboard_check(ord("D")) and not keyboard_check(ord("A")) and penguinTemperature >= -43{
 	sprite_index = PenguinSprite;
 }
 
