@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Penguin2",
-    "path": "sprites/Penguin2/Penguin2.yy",
+    "name": "Penguin3",
+    "path": "sprites/Penguin3/Penguin3.yy",
   },
   "solid": false,
   "visible": true,
