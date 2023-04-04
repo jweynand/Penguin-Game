@@ -10,6 +10,7 @@
     {"id":{"name":"RunCollisions","path":"scripts/RunCollisions/RunCollisions.yy",},"order":1,},
     {"id":{"name":"PenguinSprite","path":"sprites/PenguinSprite/PenguinSprite.yy",},"order":1,},
     {"id":{"name":"SnowBackground","path":"sprites/SnowBackground/SnowBackground.yy",},"order":7,},
+    {"id":{"name":"icebackground1","path":"sprites/icebackground1/icebackground1.yy",},"order":11,},
     {"id":{"name":"timer","path":"scripts/timer/timer.yy",},"order":2,},
     {"id":{"name":"Snowflake","path":"objects/Snowflake/Snowflake.yy",},"order":1,},
     {"id":{"name":"Dee_Yan_Key___Winter_Light","path":"sounds/Dee_Yan_Key___Winter_Light/Dee_Yan_Key___Winter_Light.yy",},"order":0,},
