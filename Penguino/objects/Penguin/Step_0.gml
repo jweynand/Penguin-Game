@@ -13,3 +13,7 @@ show_debug_message(string(x)+", "+string(y))
 if penguinTemperature >= 1{
 	penguinTemperature = 0;
 }
+
+if keyboard_check(ord("L")){
+	penguinTemperature = penguinTemperature - 10;
+}

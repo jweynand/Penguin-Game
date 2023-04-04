@@ -1,7 +1,8 @@
 {
   "resources": [
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":15,},
-    {"id":{"name":"falling1","path":"sprites/falling1/falling1.yy",},"order":8,},
+    {"id":{"name":"fallingR","path":"sprites/fallingR/fallingR.yy",},"order":8,},
+    {"id":{"name":"fallingL","path":"sprites/fallingL/fallingL.yy",},"order":10,},
     {"id":{"name":"snow1","path":"sprites/snow1/snow1.yy",},"order":6,},
     {"id":{"name":"RightWalkies","path":"sprites/RightWalkies/RightWalkies.yy",},"order":3,},
     {"id":{"name":"LeftWalkies","path":"sprites/LeftWalkies/LeftWalkies.yy",},"order":4,},

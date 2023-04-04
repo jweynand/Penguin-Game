@@ -17,9 +17,12 @@ if heated
 	}
 	else{show_debug_message("You're not heated!")}
 	if penguinTemperature <= -43{
-		image_speed = 1.5;
-		sprite_index = falling1;
-		if penguinTemperature <= -45.5
+		
+		if sprite_index == LeftWalkies{sprite_index = fallingL}
+		if sprite_index == RightWalkies{sprite_index = fallingR}
+		if sprite_index == PenguinSprite{sprite_index = fallingR}
+		
+		if image_index >= 12
 		{
 			room_restart();
 		}
