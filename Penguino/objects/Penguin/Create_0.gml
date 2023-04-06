@@ -3,4 +3,3 @@
 penguinTemperature = 0;
 heated = false;
 heatTime = 1;
-levelComplete = false;

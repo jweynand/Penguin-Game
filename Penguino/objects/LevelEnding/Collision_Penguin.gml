@@ -1,0 +1,2 @@
+global.level ++;
+levelComplete = true;
