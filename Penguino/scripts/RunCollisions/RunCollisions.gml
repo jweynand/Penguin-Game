@@ -14,6 +14,8 @@ else
 }
 
 
+
+
 //Ceiling Collision
 if tile_meeting(x,y-6,"Collision")
 {
@@ -25,6 +27,11 @@ if place_meeting(x,y-2,crackingPlatform)
 {
 	vspeed = 0 y += 4;
 }
+if place_meeting(x,y-4,crackingPlatform)
+{
+	y -= 4;
+}
+if place_meeting
 //Don't Get Stuck In The Floor
 if tile_meeting(x,y-2,"Collision") or place_meeting(x,y-2,crackingPlatform)
 {

@@ -21,6 +21,7 @@ if heated
 		if sprite_index == LeftWalkies{sprite_index = fallingL}
 		if sprite_index == RightWalkies{sprite_index = fallingR}
 		if sprite_index == PenguinSprite{sprite_index = fallingR}
+		image_speed = 1;
 		
 		if image_index >= 12
 		{
