@@ -3,7 +3,7 @@
 
 move(2);
 RunCollisions();
-increase_temperature(0.5);
+increase_temperature(0.25);
 
 //Jumping
 if keyboard_check(vk_space) or keyboard_check(ord("W")){

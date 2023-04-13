@@ -3,13 +3,14 @@
 function next_level(){
 	
 	global.level ++;
-	nextLevel = "Level" + string(global.level);
+//	nextLevel = "Level" + string(global.level);
 	
 	victoryWalkTime --;
 	Penguin.x += 1;
 	if victoryWalkTime <= 0{
 		victoryWalkTime = 120;
 		global.LevelComplete = false
+		show_message(string(global.level))
 		room = nextLevel;
 	} 
 }

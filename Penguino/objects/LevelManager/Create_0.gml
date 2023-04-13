@@ -1,3 +1,3 @@
-global.level = 0;
+global.level = 1;
 global.LevelComplete = false;
 victoryWalkTime = 120;
