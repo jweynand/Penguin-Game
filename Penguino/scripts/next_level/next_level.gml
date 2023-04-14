@@ -2,15 +2,17 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function next_level(){
 	
-	global.level ++;
-//	nextLevel = "Level" + string(global.level);
-	
-	victoryWalkTime --;
+	Penguin.victoryWalkTime --;
 	Penguin.x += 1;
-	if victoryWalkTime <= 0{
-		victoryWalkTime = 120;
+	if Penguin.victoryWalkTime <= 0{
+		Penguin.victoryWalkTime = 120;
 		global.LevelComplete = false
-		show_message(string(global.level))
-		room = nextLevel;
+		
+		if room == Room1{
+			room_goto(Level0);
+		}
+		else{
+			room_goto(HomeMenu);
+		}
 	} 
 }
