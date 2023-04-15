@@ -22,6 +22,9 @@ if tile_meeting(x,y-6,"Collision")
 	vspeed = 0 y += 4;
 }
 
+// Float in water
+if place_meeting(x,y,oilFreeWater){vspeed = 1;}
+
 // Cracking Platform Addendum
 if place_meeting(x,y-2,crackingPlatform)
 {

@@ -8,6 +8,9 @@ if place_meeting(x,y,backwall)
 else if global.LevelComplete
 {heated = false}
 
+if place_meeting(x,y,oilFreeWater)
+{heated = false}
+
 else{heated = true}
 	
 if heated
