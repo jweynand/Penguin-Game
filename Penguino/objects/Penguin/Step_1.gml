@@ -10,7 +10,7 @@ if keyboard_check(ord("A")) and not tile_meeting(bbox_left-2,y-2,"Collision") an
 }
 
 
-if keyboard_check(ord("D")) and not tile_meeting(bbox_right-34,y-2,"Collision") and not place_meeting(x,y,crackingPlatform){
+if keyboard_check(ord("D")) and not tile_meeting(x+4,y-2,"Collision") and not place_meeting(x,y,crackingPlatform){
 	x += moveSpeed;
 	sprite_index = RightWalkies;
 	image_speed = 1;
