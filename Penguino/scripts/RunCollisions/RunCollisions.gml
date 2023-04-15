@@ -25,6 +25,13 @@ if tile_meeting(x,y-6,"Collision")
 // Float in water
 if place_meeting(x,y,oilFreeWater){vspeed = 1;}
 
+// Teleport when touching oily water
+if place_meeting(x,y,Oil_water_barrel) or place_meeting(x,y,oil_water_nobarrel) or place_meeting(x,y,oilywaterTile)
+{
+	x = safeX;
+	y = safeY;
+}
+
 // Cracking Platform Addendum
 if place_meeting(x,y-2,crackingPlatform)
 {

@@ -9,6 +9,13 @@ increase_temperature(0.25);
 if keyboard_check(vk_space) or keyboard_check(ord("W")){
 	if tile_meeting(x,y,"Collision") or place_meeting(x,y+2,crackingPlatform) or place_meeting(x,y+2,oilFreeWater) or place_meeting(x,y+2,waterTile) {if not global.LevelComplete{
 		vspeed = -5;}}}
+		
+// Safe Spot
+	if tile_meeting(x,y,"Collision")
+	{
+		safeX = x;
+		safeY = y;
+	}
 
 show_debug_message(string(x)+", "+string(y))
 
