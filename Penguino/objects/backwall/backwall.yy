@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "SnowBackground",
-    "path": "sprites/SnowBackground/SnowBackground.yy",
+    "name": "Penguin3",
+    "path": "sprites/Penguin3/Penguin3.yy",
   },
   "solid": false,
   "visible": true,
