@@ -2,13 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function increase_temperature(seconds){	
 	
-if place_meeting(x,y,backwall)
-{heated = false}
-
-else if global.LevelComplete
-{heated = false}
-
-if place_meeting(x,y,oilFreeWater)
+if place_meeting(x,y,backwall) or global.LevelComplete or place_meeting(x,y,oilFreeWater)
 {heated = false}
 
 else{heated = true}
