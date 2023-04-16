@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "PenguinSprite",
-    "path": "sprites/PenguinSprite/PenguinSprite.yy",
+    "name": "Startbuttontext",
+    "path": "sprites/Startbuttontext/Startbuttontext.yy",
   },
   "solid": false,
   "visible": true,
