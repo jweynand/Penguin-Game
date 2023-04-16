@@ -14,5 +14,14 @@ function next_level(){
 		else if room == Level0{
 			room_goto(Level1);
 		}
+		else if room == Level1{
+			room_goto(Level2);
+		}
+		else if room == Level2{
+			room_goto(Level3);
+		}
+		else if room == Level3{
+			room_goto(HomeMenu);
+		}
 	} 
 }

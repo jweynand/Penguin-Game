@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 119,
-  "bbox_top": 8,
-  "bbox_bottom": 70,
+  "bbox_right": 31,
+  "bbox_top": 0,
+  "bbox_bottom": 31,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 120,
-  "height": 71,
+  "width": 32,
+  "height": 32,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,15 +24,15 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"bdfdfbc3-b829-48af-9995-130f34ffee91","path":"sprites/oil_water/oil_water.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bdfdfbc3-b829-48af-9995-130f34ffee91","path":"sprites/oil_water/oil_water.yy",},"LayerId":{"name":"9ed88149-a9ec-4a3c-af22-1c1cb955a830","path":"sprites/oil_water/oil_water.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"oil_water","path":"sprites/oil_water/oil_water.yy",},"resourceVersion":"1.0","name":"bdfdfbc3-b829-48af-9995-130f34ffee91","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"78f702ff-cafc-4431-96ac-c432ee821e02","path":"sprites/RockBlock/RockBlock.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"78f702ff-cafc-4431-96ac-c432ee821e02","path":"sprites/RockBlock/RockBlock.yy",},"LayerId":{"name":"91bade8e-4642-4aec-b221-2d346b6699cb","path":"sprites/RockBlock/RockBlock.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"RockBlock","path":"sprites/RockBlock/RockBlock.yy",},"resourceVersion":"1.0","name":"78f702ff-cafc-4431-96ac-c432ee821e02","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"oil_water","path":"sprites/oil_water/oil_water.yy",},
+    "spriteId": {"name":"RockBlock","path":"sprites/RockBlock/RockBlock.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 3.0,
+    "playbackSpeed": 30.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"d1da07db-f91d-44b6-809c-17cc7014d0fc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bdfdfbc3-b829-48af-9995-130f34ffee91","path":"sprites/oil_water/oil_water.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"79b1501e-99bd-4c39-8dbb-806a07da8257","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"78f702ff-cafc-4431-96ac-c432ee821e02","path":"sprites/RockBlock/RockBlock.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"oil_water","path":"sprites/oil_water/oil_water.yy",},
+    "parent": {"name":"RockBlock","path":"sprites/RockBlock/RockBlock.yy",},
     "resourceVersion": "1.4",
-    "name": "oil_water",
+    "name": "RockBlock",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9ed88149-a9ec-4a3c-af22-1c1cb955a830","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"91bade8e-4642-4aec-b221-2d346b6699cb","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oil_water",
+  "name": "RockBlock",
   "tags": [],
   "resourceType": "GMSprite",
 }
