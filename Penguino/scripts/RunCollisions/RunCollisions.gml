@@ -33,7 +33,7 @@ if place_meeting(x,y,Oil_water_barrel) or place_meeting(x,y,oil_water_nobarrel) 
 }
 
 // Cracking Platform Addendum
-if place_meeting(x,y+2,crackingPlatform)
+if place_meeting(x,y,crackingPlatform)
 {
 	y -= 2;
 }

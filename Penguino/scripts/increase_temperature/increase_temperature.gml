@@ -18,8 +18,9 @@ if heated
 	}
 	}
 	else{show_debug_message("You're not heated!")}
+	if penguinTemperature == 43{image_index = 0;}
 	if penguinTemperature <= -43{
-		
+
 		if sprite_index == LeftWalkies{sprite_index = fallingL}
 		if sprite_index == RightWalkies{sprite_index = fallingR}
 		if sprite_index == PenguinSprite{sprite_index = fallingR}

@@ -1,7 +1,7 @@
 {
   "conversionMode": 0,
   "compression": 0,
-  "volume": 0.1,
+  "volume": 0.45,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -11,14 +11,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "Dee_Yan_Key___Winter_Light.mp3",
-  "duration": 451.918365,
+  "soundFile": "Kevin_MacLeod__The_Drive.mp3",
+  "duration": 149.048889,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Dee_Yan_Key___Winter_Light",
+  "name": "Kevin_MacLeod__The_Drive",
   "tags": [],
   "resourceType": "GMSound",
 }
