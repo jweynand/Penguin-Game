@@ -21,7 +21,7 @@ function next_level(){
 			room_goto(Level3);
 		}
 		else if room == Level3{
-			room_goto(HomeMenu);
+			room_goto(Victory);
 		}
 	} 
 }
