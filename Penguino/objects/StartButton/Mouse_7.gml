@@ -1,2 +1,2 @@
-room_goto(Level1);
+room_goto(TransformCutscene);
 audio_stop_all();
